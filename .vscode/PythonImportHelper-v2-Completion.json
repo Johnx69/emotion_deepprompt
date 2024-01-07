@@ -1,0 +1,140 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "scipy.io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scipy.io",
+        "description": "scipy.io",
+        "detail": "scipy.io",
+        "documentation": {}
+    },
+    {
+        "label": "AffectNetDataset",
+        "importPath": "single_image_dataset.affectnet",
+        "description": "single_image_dataset.affectnet",
+        "isExtraImport": true,
+        "detail": "single_image_dataset.affectnet",
+        "documentation": {}
+    },
+    {
+        "label": "RAFDBDataset",
+        "importPath": "single_image_dataset.raf_db",
+        "description": "single_image_dataset.raf_db",
+        "isExtraImport": true,
+        "detail": "single_image_dataset.raf_db",
+        "documentation": {}
+    },
+    {
+        "label": "EMOTION_CLASSIFICATION",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "AFFECTNET",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "INSTRUCTION_DATA_PATH",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "RAF_DB",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "AffectNetDataset",
+        "kind": 6,
+        "importPath": "dataset.single_image_dataset.affectnet",
+        "description": "dataset.single_image_dataset.affectnet",
+        "peekOfCode": "class AffectNetDataset:\n    def __init__(\n        self,\n        root_path=\"data/emotion_classification_dataset\",\n        dataset_path=\"AffectNet/AffectNet_v2\",\n        template_path=\"template/emotion_classification.json\",\n    ):\n        self.root_path = root_path\n        self.dataset_path = dataset_path\n        self.template_path = template_path",
+        "detail": "dataset.single_image_dataset.affectnet",
+        "documentation": {}
+    },
+    {
+        "label": "RAFDBDataset",
+        "kind": 6,
+        "importPath": "dataset.single_image_dataset.raf_db",
+        "description": "dataset.single_image_dataset.raf_db",
+        "peekOfCode": "class RAFDBDataset:\n    def __init__(\n        self,\n        root_path=\"data/emotion_classification_dataset\",\n        dataset_path=\"RAF-DB\",\n        template_path=\"template/emotion_classification.json\",\n    ):\n        self.root_path = root_path\n        self.data_path = dataset_path\n        self.template_path = template_path",
+        "detail": "dataset.single_image_dataset.raf_db",
+        "documentation": {}
+    },
+    {
+        "label": "EMOTION_CLASSIFICATION",
+        "kind": 5,
+        "importPath": "dataset.config",
+        "description": "dataset.config",
+        "peekOfCode": "EMOTION_CLASSIFICATION = \"data/emotion_classification_dataset\"\nAFFECTNET = \"AffectNet/AffectNet_v2\"\nRAF_DB = \"RAF-DB\"\n###### INSTRUCTION_DATA_PATH ######\nINSTRUCTION_DATA_PATH = \"data/500k_emotion_instruct.json\"",
+        "detail": "dataset.config",
+        "documentation": {}
+    },
+    {
+        "label": "AFFECTNET",
+        "kind": 5,
+        "importPath": "dataset.config",
+        "description": "dataset.config",
+        "peekOfCode": "AFFECTNET = \"AffectNet/AffectNet_v2\"\nRAF_DB = \"RAF-DB\"\n###### INSTRUCTION_DATA_PATH ######\nINSTRUCTION_DATA_PATH = \"data/500k_emotion_instruct.json\"",
+        "detail": "dataset.config",
+        "documentation": {}
+    },
+    {
+        "label": "RAF_DB",
+        "kind": 5,
+        "importPath": "dataset.config",
+        "description": "dataset.config",
+        "peekOfCode": "RAF_DB = \"RAF-DB\"\n###### INSTRUCTION_DATA_PATH ######\nINSTRUCTION_DATA_PATH = \"data/500k_emotion_instruct.json\"",
+        "detail": "dataset.config",
+        "documentation": {}
+    },
+    {
+        "label": "INSTRUCTION_DATA_PATH",
+        "kind": 5,
+        "importPath": "dataset.config",
+        "description": "dataset.config",
+        "peekOfCode": "INSTRUCTION_DATA_PATH = \"data/500k_emotion_instruct.json\"",
+        "detail": "dataset.config",
+        "documentation": {}
+    }
+]
